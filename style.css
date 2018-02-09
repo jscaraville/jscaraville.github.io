@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+}
+
+body {
+  font-family: 'Noticia Text', serif;
+  background-color: aliceblue;
+  background-image:url(gd2selfie.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color:dimgray;
+}
+
+a {
+  color:inherit;
+  display: inline-block;
+  transition: 200ms;
+  padding:1em;
+  border: 1px; solid;
+  margin: .3em;
+  text-decoration: none;
+}
+
+a:hover {
+  color:pink;
+  transform:rotate(45deg); scale: (1.2);
+}
+
+img {
+
+    width:100%;
+}
+.Biography {
+    position: absolute;
+    top:50%;
+    left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
